@@ -4,14 +4,10 @@ namespace Alice
 {
     public class SaveData
     {
-
-    }
-
-    public class PlayerData
-    {
-        public int playerHp;
-        public int playerMaxHp;
-        public CardType firstCard;
-        public CardType secondCard;
+        public PlayerData playerData;
+        public Currency currency;
+        public TechTree techTree;
+        public ShopList shopList;
+        public Statics statics;
     }
 }

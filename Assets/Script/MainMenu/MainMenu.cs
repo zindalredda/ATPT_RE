@@ -3,7 +3,6 @@ using MisoL.Attributes;
 using Unity.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using static UnityEngine.Screen;
 
 namespace Alice.MainMenu
 {
@@ -26,7 +25,7 @@ namespace Alice.MainMenu
         private void AliceMover()
         {
             Vector3 pos = Mouse.current.position.ReadValue();
-            mousePos = pos - new Vector3(width / 2, height / 2, 0);
+            mousePos = pos - new Vector3(960, 540, 0);
             
             alice.transform.position = ogPos + (mousePos / 1000);
         }

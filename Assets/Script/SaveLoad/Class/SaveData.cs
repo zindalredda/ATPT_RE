@@ -1,9 +1,9 @@
-using UnityEngine;
-
 namespace Alice
 {
     public class SaveData
     {
+        public bool isNew = false;
+        
         public PlayerData playerData;
         public Currency currency;
         public TechTree techTree;
